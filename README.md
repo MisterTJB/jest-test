@@ -13,3 +13,12 @@ jsdom effectively allows you to do things like `document.querySelector('.my-clas
 In this proof-of-concept, I just read in the `index.html` as plain utf text using the regular ol' Node.js `fs` library, then set that text to the `innerHTML` of a jsdom 'document' that Jest injects into the module (named, conveniently, `document`).
 
 I've bundled it all into a module to keep the test code focused on testing and not boilerplate.
+
+## Why doesn't it work?
+
+- Did you `npm install`?
+- Did you `npm run test`?
+
+## Why are tests failing?
+
+Because you need to implement that <marquee> tag for full marks!
