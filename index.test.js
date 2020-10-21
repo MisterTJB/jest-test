@@ -20,3 +20,11 @@ describe('The World\'s most tested heading tag', function () {
         expect(h1Element).toEqual("Testing the Jesting")
     });
 });
+
+describe('Extra for experts', function () {
+    it('has exactly one <marquee> that says "Success!"', function () {
+        const marquee = myPage.querySelector('marquee');
+
+        expect(marquee.textContent).toEqual("Success!")
+    });
+})
