@@ -21,4 +21,4 @@ I've bundled it all into a module to keep the test code focused on testing and n
 
 ## Why are tests failing?
 
-Because you need to implement that <marquee> tag for full marks!
+Because you need to implement that `<marquee>` tag for full marks!
