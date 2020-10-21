@@ -18,6 +18,7 @@ I've bundled it all into a module to keep the test code focused on testing and n
 
 - Did you `npm install`?
 - Did you `npm run test`?
+- The watcher is being too helpful and knows that files haven't changed since the last commit. Press 'a' to run all tests
 
 ## Why are tests failing?
 
