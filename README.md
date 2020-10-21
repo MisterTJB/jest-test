@@ -23,3 +23,7 @@ I've bundled it all into a module to keep the test code focused on testing and n
 ## Why are tests failing?
 
 Because you need to implement that `<marquee>` tag for full marks!
+
+## Attribution
+
+I stole the solution from [this guy](https://dev.to/snowleo208/things-i-learned-after-writing-tests-for-js-and-html-page-4lja) and made it less WTF.
