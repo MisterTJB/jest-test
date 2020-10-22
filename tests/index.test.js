@@ -22,7 +22,14 @@ describe('The World\'s most tested heading tag', function () {
 });
 
 describe('Extra for experts', function () {
-    it('has exactly one <marquee> that says "Success!"', function () {
+    
+    it('has exactly a <marquee>', function () {
+        const marquee = myPage.querySelector('marquee');
+
+        expect(marquee).toBeTruthy()
+    });
+    
+    it('the <marquee> says "Success!"', function () {
         const marquee = myPage.querySelector('marquee');
 
         expect(marquee.textContent).toEqual("Success!")
